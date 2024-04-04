@@ -4,12 +4,13 @@ A c++ implementation of k-d tree
 <img src=https://github.com/gishi523/kd-tree/wiki/images/kdtree_I0.png width=256> <img src=https://github.com/gishi523/kd-tree/wiki/images/kdtree_I1.png width=256> <img src=https://github.com/gishi523/kd-tree/wiki/images/kdtree_I2.png width=256>
 
 ## Description
-- A c++ implementation of k-d tree
+- A C++ implementation of k-d tree
 - Header-only library
 - Provides following Nearest neighbor search functions
   - Nearest neighbor search
   - K-nearest neighbor search
   - Radius search
+- Supports both L1 and L2 distances (new feature)
 
 ## How to use KDTree class
 - KDTree class takes a user-defined Point type as its template parameter
